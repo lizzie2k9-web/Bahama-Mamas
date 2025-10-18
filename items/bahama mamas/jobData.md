@@ -1,25 +1,33 @@
 -- QBCORE
-beanmachine = {
-    label = 'Bean Machine',
-    type = 'restaurant',
+bahamamamas = {
+    label = 'Bahama Mamas',
+    type = 'stripclub',
     defaultDuty = true,
     offDutyPay = undefined,
     grades = {
-        ['0'] = {
-            name = 'recruit',
-            payment = 50
-        },
         ['1'] = {
-            name = 'barista',
-            payment = 75
+            name = 'floor staff',
+            payment = 250
         },
         ['2'] = {
-            name = 'shift lead',
-            payment = 100
+            name = 'security',
+            payment = 350
         },
         ['3'] = {
-            name = 'management',
-            payment = 50,
+            name = 'bar staff',
+            payment = 350
+        },
+        ['4'] = {
+            name = 'head of security',
+            payment = 500
+         },
+        ['5'] = {
+            name = 'head manager',
+            payment = 2000
+        },
+        ['6'] = {
+            name = ' owner',
+            payment = 4000
             isboss = true,
             bankAuth = true
         }
@@ -27,27 +35,35 @@ beanmachine = {
 },
 
 -- QBOX
-['beanmachine'] = {
-    label = 'Bean Machine',
-    type = 'restaurant',
+['bahamamamas'] = {
+    label = 'Bahama Mamas',
+    type = 'stripclub',
     defaultDuty = true,
     offDutyPay = undefined,
     grades = {
-        [0] = {
-            name = 'recruit',
-            payment = 50
-        },
         [1] = {
-            name = 'barista',
-            payment = 75
+            name = 'floor staff',
+            payment = 250
         },
         [2] = {
-            name = 'shift lead',
-            payment = 100
+            name = 'security',
+            payment = 350
         },
         [3] = {
-            name = 'management',
-            payment = 50,
+            name = 'bar staff',
+            payment = 350
+        },
+        [4] = {
+            name = 'head of security',
+            payment = 500
+ },
+        [5] = {
+            name = 'head manager',
+            payment = 2000
+        },
+        [6] = {
+            name = 'owner',
+            payment = 4000,
             isboss = true,
             bankAuth = true
         }
@@ -56,11 +72,13 @@ beanmachine = {
 
 -- SQL Insert Statements
 INSERT INTO `jobs` (name, label) VALUES
-  ('beanmachine', 'Bean Machine');
+  ('bahamamamas', 'Bahama Mamas');
 
 INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
-  ('beanmachine', 0, 'recruit', 'recruit', 50, '{}', '{}'),
-  ('beanmachine', 1, 'barista', 'barista', 75, '{}', '{}'),
-  ('beanmachine', 2, 'shift lead', 'shift lead', 100, '{}', '{}'),
-  ('beanmachine', 3, 'management', 'management', 50, '{}', '{}')
+  ('bahamamamas', 1, 'floor staff', 'floor staff', 250, '{}', '{}'),
+  ('bahamamamas', 2, 'security', 'security', 350, '{}', '{}'),
+  ('bahamamamas', 3, 'bar staff', 'bar staff', 350, '{}', '{}'),
+  ('bahamamamas', 4, 'head of security', 'head of security', 500, '{}', '{}')
+  ('bahamamamas', 5, 'head manager', 'head manager', 2000, '{}', '{}')
+  ('bahamamamas', 6, 'owner', 'owner', 4000, '{}', '{}')
 ;
