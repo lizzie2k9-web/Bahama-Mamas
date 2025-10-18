@@ -1,11 +1,12 @@
 ```lua
-["almond_croissant"] = { 
-    label = 'Almond Croissant', 
+["irish stout"] = { 
+    label = 'Irish Stout', 
     description = "", 
     weight = 100, 
     stack = true, 
     close = true, 
-    client = { image = 'almond_croissant.png' } 
+    client = { image = '
+' } 
 },
 ["americano"] = { 
     label = 'Americano', 
