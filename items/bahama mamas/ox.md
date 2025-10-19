@@ -309,7 +309,23 @@
     weight = 100, 
     stack = true, 
     close = true, 
-    client = { image = 'lemonjuice.png' } 
+    client = { image = 'lemon juice.png' } 
+},
+["lettuce"] = { 
+    label = 'Lettuce', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'Lettuce.png' }
+},
+["lime juice"] = { 
+    label = 'Lime Juice', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'lime juice.png' }
 },
 ["lime"] = { 
     label = 'Lime', 
@@ -398,5 +414,221 @@
     stack = true, 
     close = true, 
     client = { image = 'Orange.png' } 
+},
+["pernod"] = { 
+    label = 'Pernod', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'pernod.png' }
+},
+["pie crust"] = { 
+    label = 'pie crust', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'piecrust.png' }
+},
+["pineapple chunks"] = { 
+    label = 'pineapple chunks', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'pineapple chunks.png' }
+},
+["pineapple juice"] = { 
+    label = 'pineapple juice', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'pineapple juice.png' }
+},
+["pineapple rings"] = { 
+    label = 'Pineapple Rings', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'pineapple rings.png' }
+},
+["raw_chicken_wings"] = { 
+    label = 'raw_chicken_wings', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'raw_chicken_wings.png' }
+},
+["roasted barley"] = { 
+    label = 'roasted barley', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'roasted barley.png' }
+},
+["rum"] = { 
+    label = 'Rum', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'rum.png' }
+},
+["salsa"] = { 
+    label = 'Salsa', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'salsa.png' }
+},
+["soda water"] = { 
+    label = 'soda water', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'soda water.png' }
+},
+["sour cream"] = { 
+    label = 'Sour Cream', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'sour cream.png' }
+},
+["spiced rum"] = { 
+    label = 'spiced rum', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'spiced rum.png' }
+},
+["sprunk"] = { 
+    label = 'Sprunk', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'sprunk.png' }
+},
+["starfruit"] = { 
+    label = 'Star Fruit', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'starfruit.png' }
+},
+["strawberry juice"] = { 
+    label = 'strawberry juice', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'strawberry juice.png' }
+},
+["strawberry puree"] = { 
+    label = 'Strawberry Puree', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'strawberry pureee.png' }
+},
+["strawberry"] = { 
+    label = 'Strawberry', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'strawberry.png' }
+},
+["sweet chilli"] = { 
+    label = 'Sweet Chilli', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'sweet chilli.png' }
+},
+["taco_cheese"] = { 
+    label = 'Taco Cheese', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'taco_cheese.png' }
+},
+["tortilla chips"] = { 
+    label = 'Tortilla Chips', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'tortilla chips.png' }
+},
+["tortilla"] = { 
+    label = 'Tortilla', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'tortilla.png' }
+},
+["triple sec"] = { 
+    label = 'Triple sec', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'Triple Sec.png' }
+},
+["vanilla syrup"] = { 
+    label = 'Vanilla Syrup', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'vanilla syrup.png' }
+},
+["vodka"] = { 
+    label = 'Vodka', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'vodka.png' }
+},
+["white rum"] = { 
+    label = 'White Rum', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'white rum.png' }
+},
+["yeast"] = { 
+    label = 'Yeast', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'yeast.png' }
+},
+["yogurt"] = { 
+    label = 'Yogurt', 
+    description = "", 
+    weight = 100, 
+    stack = true, 
+    close = true, 
+    client = { image = 'Yogurt.png' }
 },
 ```
