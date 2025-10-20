@@ -14,7 +14,7 @@ Jobs['bahamamamas'] = {
         vec4(-1403.85, -599.31, 30.31, 36.85)
     },
     Blip = {
-        { sprite = 106, color = 2, scale = 0.5, label = 'Burger Shot', loc = vec3(-1178.93, -888.79, 13.95) },
+        { sprite = 106, color = 2, scale = 0.5, label = 'Bahama Mamas', loc = vec3(-1178.93, -888.79, 13.95) },
     },
     closedShops = {
         { ped = 'csb_burgerdrug', loc = vector4(-1194.88, -894.07, 12.89, 352), label = 'Burgershot Shop' }
